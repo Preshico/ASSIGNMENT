@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+  background-image: url(https://i.postimg.cc/25qfGBp4/logo.jpg);
+margin:20px;
+	height:30%;
+  font:18px Georgia, Times, serif;
+  color: #eee;
+  border-radius: 10px;
+  text-shadow:1px 1px 5px #000000;
+	float:left;
+	clear:both;
+  padding: 10px
+  text-align: center
+}
+/* CSS Document */
+#nav ul{
+	margin:0;
+	padding:0;
+	}
+#nav ul li{
+	list-style-type:none;
+	float:left;
+	text-align:center;
+	line-height:60px;
+	color:#FFFFFF;
+	width:15%;	
+	height:60px;
+	font-size:1em;
+	font-family:"San serif", Times, serif;
+	}
+#nav ul li a{
+	color:#FFFFFF;
+	}
+#nav ul li:hover{	
+	background-color:#CE0000;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	-o-transition:1s;
+	transition:1s;
+	border-radius:10px;
+	padding-bottom:2px;
+	}
+#nav ul li:hover a{
+	color:rgba(255,255,255,0.8);
+	font-weight:bolder;
+	display:block;
+	padding-top:5px;
+	font-size:20px;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	-o-transition:1s;
+	transition:1s;
+	}
+@media only screen and (max-width:480px){
+	#nav ul li{
+	font-size:1em;
+	width:20%;
+	}
+}
+
+
+
+
+
